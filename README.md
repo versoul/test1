@@ -16,7 +16,7 @@ go build
 Run 
 
 ```
-sudo sniffer -device='enp3s0' -addr=':8089'
+sudo ./sniffer -device='enp3s0' -addr=':8089'
 device = device name to sniff ( you can find by ifconfig command)
 addr = where start server
 
